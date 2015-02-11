@@ -2,8 +2,8 @@
 layout: post
 title:  "Alterando a cor da barra de navegação com o theme-color"
 date:   2015-02-08 14:34:25
-categories: html5
-tags: featured
+categories: html
+tags: 
 image: /assets/article_images/2015-02-08-alterando-a-cor-da-barra-de-navegacao/534421887_e17afcac3a_o.jpg
 ---
 O primeiro post do meu blog será sobre uma meta tag que nos possibilita colorir a barra de ferramentas do sistema operacional móvel e do navegador. Esta meta tag foi desenvolvida para substituir as soluções proprietárias como `msapplication-navbutton-color` para o Internet Explorer e `apple-mobile-web-app-status-bar-style` para o Safari mobile.
