@@ -36,7 +36,7 @@ Atualmente existem várias bibliotecas que realizam teste de regressão, quando 
 - [pix-diff][pix-diff] (Protractor, Selenium)
 - [Applittools][applittools] (PhantomJS)
 - [PhantomCSS][PhantomCSS] (PhantomJS)
-- [wraith][wraith] (PhantomJS, CasperJS, SlimerJS)
+- [wraith][wraith] (PhantomJS, SlimerJS)
 - [webdrivercss][webdrivercss] (Selenium)
 
 
@@ -45,5 +45,5 @@ Atualmente existem várias bibliotecas que realizam teste de regressão, quando 
 [pix-diff]: https://github.com/koola/pix-diff
 [applittools]: https://applitools.com/
 [PhantomCSS]: https://github.com/Huddle/PhantomCSS
-[wraith]: https://github.com/andrewccadman/wraith
+[wraith]: https://github.com/BBC-News/wraith
 [webdrivercss]: https://github.com/webdriverio/webdrivercss
