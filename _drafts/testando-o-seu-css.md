@@ -43,9 +43,26 @@ Atualmente existem várias bibliotecas que realizam teste de regressão, quando 
 Neste artigo irei mostrar como utilizar o [wraith][wraith] que foi criado pelo BBC, com ele você poderá executar os testes utilizando o PhantomJS (webkit) e o SlimerJS (Gecko).
 
 ## Instalando
-Todas as dependências e passos para a instalação estão listados [neste link][wraith-install].
+Todas as dependências e estão listadas [neste link][wraith-install].
+Após instalar todas as dependências necessárias, você deve instalar o wraith.
+{% highlight ruby %}
+gem install wraith
+{% endhighlight %}
 
 ## Criando um projeto
+Para criar um projeto com do wraith você deverá criar uma pasta. Após criar a pasta você deverá iniciar o projeto com o seguinte comando:
+{% highlight ruby %}
+wraith setup
+{% endhighlight %}
+
+Este comando irá a seguinte estrutura de pasta:
+{% highlight shell %}
+.
+├── configs
+│   └── config.yaml
+└── javascript
+    └── snap.js
+{% endhighlight %}
 
 
 [BackstopJS]: https://garris.github.io/BackstopJS/
