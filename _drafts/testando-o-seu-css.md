@@ -64,6 +64,43 @@ Este comando irá a seguinte estrutura de pasta:
     └── snap.js
 {% endhighlight %}
 
+## Configurando o projeto
+Todas as configurações necessárias serão feitas no arquivo configs/config.yaml, abaixo irei explicar as opções existentes.
+
+*browser*
+está opção indica qual será o navegador utilizado nos testes, as opções disponíveis são phantomjs e slimerjs. É possível utilizar os dois navegadores.
+{% highlight ruby %}
+browser:
+  phantomjs: "phantomjs"
+  slimerjs: "slimerjs"
+{% endhighlight %}
+
+*snap_file*
+
+*directory*
+diretório onde serão salvos os screenshots
+
+*domains*
+domínios que serão utilizados nos testes, deve ser informado apenas 2 domínios.
+
+*screen_widths*
+lista dos tamanhos de tela (largura).
+
+*paths*
+caminhos que serão testados, baseados nos *domains* informados
+
+*fuzz*
+
+*spider_days*
+
+*mode*
+como os resultados serão exibidos, por padrão é exibido em ordem alfabética. As opções disponíveis são:
+- alphanumeric, que é a opção padrão
+- diffs_first, ira ser exibido primeiro os caminhos que possuem diferença
+- diffs_only, ira ser exibido apenas os caminhos que possuem diferença
+
+*threshold*
+
 
 [BackstopJS]: https://garris.github.io/BackstopJS/
 [viff]: https://github.com/winsonwq/viff
