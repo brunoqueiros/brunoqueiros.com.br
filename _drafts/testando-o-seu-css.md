@@ -39,6 +39,14 @@ Atualmente existem várias bibliotecas que realizam teste de regressão, quando 
 - [wraith][wraith] (PhantomJS, SlimerJS)
 - [webdrivercss][webdrivercss] (Selenium)
 
+# Me mostre como
+Neste artigo irei mostrar como utilizar o [wraith][wraith] que foi criado pelo BBC, com ele você poderá executar os testes utilizando o PhantomJS (webkit) e o SlimerJS (Gecko).
+
+## Instalando
+Todas as dependências e passos para a instalação estão listados [neste link][wraith-install].
+
+## Criando um projeto
+
 
 [BackstopJS]: https://garris.github.io/BackstopJS/
 [viff]: https://github.com/winsonwq/viff
@@ -47,3 +55,4 @@ Atualmente existem várias bibliotecas que realizam teste de regressão, quando 
 [PhantomCSS]: https://github.com/Huddle/PhantomCSS
 [wraith]: https://github.com/BBC-News/wraith
 [webdrivercss]: https://github.com/webdriverio/webdrivercss
+[wraith-install]: http://bbc-news.github.io/wraith/os-install.html
